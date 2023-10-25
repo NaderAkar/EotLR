@@ -11,6 +11,7 @@ public class Player_Controller : MonoBehaviour
     private Animator animator;
 
     private bool isCrouched = false;
+    private bool hasPistol = false;
     private bool isSprinting = false;
 
     private float rotationX = 0.0f; // Rotation around the X-axis for looking
@@ -20,6 +21,7 @@ public class Player_Controller : MonoBehaviour
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>(); // Assuming the Animator component is on the same GameObject as the script.
         normalMoveSpeed = moveSpeed; // Store the normal movement speed.
+        
     }
 
     void Update()
@@ -32,6 +34,8 @@ public class Player_Controller : MonoBehaviour
         // Apply rotation to the player
         transform.Rotate(0, mouseX, 0);
         Camera.main.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+       
+        
 
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
@@ -72,6 +76,12 @@ public class Player_Controller : MonoBehaviour
         {
             isCrouched = !isCrouched; // Toggle the crouch state.
             animator.SetBool("isCrouched", isCrouched);
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            hasPistol = !hasPistol; // Toggle the crouch state.
+            animator.SetBool("hasPistol", hasPistol);
         }
     }
 }
