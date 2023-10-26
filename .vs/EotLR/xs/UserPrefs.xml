@@ -1,22 +1,19 @@
 ﻿<Properties StartupConfiguration="{2FD8CE07-7E41-0FFB-A27C-F3E364EF8174}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/Low Poly Guns/Scripts/GunView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
     <Files>
       <File FileName="Assets/Scripts/Player_Controller.cs" Line="12" Column="1" />
       <File FileName="Assets/Plugins/Low Poly Guns/Scripts/GunView.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Gun.cs" Line="70" Column="9" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="30" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EotLR" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Plugins" expanded="True">
-                <Node name="Low Poly Guns" expanded="True">
-                  <Node name="Scripts" expanded="True">
-                    <Node name="GunView.cs" selected="True" />
-                  </Node>
-                </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Enemy.cs" selected="True" />
               </Node>
-              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -25,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ea91a923-78e2-47ca-8ae4-f6310e0ec7e0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e152d22b-dbd4-49ef-b1fd-2d8283746fee" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
