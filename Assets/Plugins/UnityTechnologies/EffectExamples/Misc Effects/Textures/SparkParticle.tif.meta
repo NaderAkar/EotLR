@@ -79,5 +79,5 @@ AssetOrigin:
   productId: 73777
   packageName: Legacy Particle Pack
   packageVersion: 1.8
-  assetPath: Assets/UnityTechnologies/EffectExamples/Misc Effects/Textures/SparkParticle.tif
+  assetPath: Assets/Plugins/UnityTechnologies/EffectExamples/Misc Effects/Textures/SparkParticle.tif
   uploadId: 563305

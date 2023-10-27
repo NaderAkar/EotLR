@@ -213,5 +213,5 @@ AssetOrigin:
   productId: 73777
   packageName: Legacy Particle Pack
   packageVersion: 1.8
-  assetPath: Assets/UnityTechnologies/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png
+  assetPath: Assets/Plugins/UnityTechnologies/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png
   uploadId: 563305

@@ -3,14 +3,19 @@
     <Files>
       <File FileName="Assets/Scripts/Player_Controller.cs" Line="12" Column="1" />
       <File FileName="Assets/Plugins/Low Poly Guns/Scripts/GunView.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Gun.cs" Line="70" Column="9" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="30" Column="1" />
+      <File FileName="Assets/Scripts/Gun.cs" Line="66" Column="43" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="29" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EotLR" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Plugins" expanded="True">
+                <Node name="Low Poly Guns" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Enemy.cs" selected="True" />
               </Node>
