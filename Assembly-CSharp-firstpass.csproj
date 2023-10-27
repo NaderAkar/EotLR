@@ -60,6 +60,35 @@
   <ItemGroup>
     <Compile Include="Assets/Plugins/Low Poly Guns/Scripts/GunsMenu.cs" />
     <Compile Include="Assets/Plugins/Low Poly Guns/Scripts/GunView.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets/Plugins/UnityTechnologies/EffectExamples/Shared/Scripts/GunAim.cs" />
+    <Compile Include="Assets/Plugins/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/Plugins/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/Plugins/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/Plugins/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/Plugins/UnityTechnologies/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
