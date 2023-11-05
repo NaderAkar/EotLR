@@ -88,4 +88,7 @@ public class SunCycleManager : MonoBehaviour
         return interval;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9198b0a86e7d82c871f9fc60c2af03e8f17867f3
