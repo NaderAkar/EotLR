@@ -284,7 +284,11 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh27114
+=======
+  m_Name: pb_Mesh32564
+>>>>>>> 9198b0a86e7d82c871f9fc60c2af03e8f17867f3
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -768,6 +772,55 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1531607958}
   m_SourcePrefab: {fileID: 100100000, guid: ffb3f5f9531da764c906b0baf3285c62, type: 3}
+--- !u!1 &849545692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 849545693}
+  - component: {fileID: 849545694}
+  m_Layer: 0
+  m_Name: TimeController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &849545693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849545692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 82.73123, y: 100.87148, z: 83.458244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849545694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849545692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d807ba180b44be19358ec45131ba17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rateOfTime: 350
+  initialHour: 12
+  solarLight: {fileID: 705507994}
+  dawnHour: 6
+  duskHour: 21
 --- !u!1001 &876828099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2819,5 +2872,9 @@ SceneRoots:
   - {fileID: 1743541478}
   - {fileID: 399845587}
   - {fileID: 1621202923}
+<<<<<<< HEAD
   - {fileID: 1778357314}
   - {fileID: 779293058}
+=======
+  - {fileID: 849545693}
+>>>>>>> 9198b0a86e7d82c871f9fc60c2af03e8f17867f3
